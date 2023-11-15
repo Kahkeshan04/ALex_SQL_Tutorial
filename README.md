@@ -1,3 +1,19 @@
+# SQL Queries Showcase
+
+In this section, I'll briefly highlight some of the SQL concepts and queries I've practiced from the tutorial. These queries cover a range of functionalities, from basic retrieval to advanced joins and aggregations.
+
+### Concepts Explored:
+
+- **Basic Retrieval:** Demonstrated the ability to fetch specific columns from tables using `SELECT`.
+
+- **Filtering and Sorting:** Learned how to use `WHERE` for filtering and `ORDER BY` for sorting results.
+
+- **Joins:** Explored joining tables to retrieve information from multiple sources.
+
+- **Aggregations:** Practiced using aggregate functions like `COUNT`, `AVG`, and `GROUP BY`.
+
+These queries showcase my hands-on experience with SQL, reflecting the diverse set of skills gained through this tutorial. While the queries themselves are not included in this document, the associated SQL file provides a comprehensive view of the commands and techniques I've learned.
+
 # COVID-19 Data Analysis Project
 
 ## Purpose:
