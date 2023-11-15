@@ -1,6 +1,6 @@
 # SQL Queries Showcase
 
-In this section, I'll briefly highlight some of the SQL concepts and queries I've practiced from the tutorial. These queries cover a range of functionalities, from basic retrieval to advanced joins and aggregations.
+In this section, I'll briefly highlight some of the SQL concepts and queries I've practiced from the tutorial. These queries cover a range of functionalities, including both fundamental and advanced SQL topics.
 
 ### Concepts Explored:
 
@@ -12,7 +12,15 @@ In this section, I'll briefly highlight some of the SQL concepts and queries I'v
 
 - **Aggregations:** Practiced using aggregate functions like `COUNT`, `AVG`, and `GROUP BY`.
 
-These queries showcase my hands-on experience with SQL, reflecting the diverse set of skills gained through this tutorial. While the queries themselves are not included in this document, the associated SQL file provides a comprehensive view of the commands and techniques I've learned.
+- **Advanced Joins:** Explored `INNER`, `LEFT OUTER`, `RIGHT OUTER`, and `FULL OUTER` joins for more complex data retrieval.
+
+- **CASE Statements:** Utilized `CASE` statements to apply conditional logic in query results.
+
+- **UNION and UNION ALL:** Combined and compared data from multiple tables using `UNION` and `UNION ALL`.
+
+- **Window Functions (PARTITION BY):** Introduced window functions to perform calculations within specific partitions of the result set.
+
+These queries showcase my hands-on experience with SQL, ranging from foundational concepts to advanced techniques. While the queries themselves are not included in this document, the associated SQL file provides a comprehensive view of the commands and techniques I've learned.
 
 # COVID-19 Data Analysis Project
 
