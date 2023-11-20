@@ -49,3 +49,46 @@ The purpose of this project is to analyze and derive meaningful insights from th
 
 ## Conclusion:
 In the face of a global health crisis, data-driven insights play a crucial role in understanding the dynamics of the COVID-19 pandemic. This project harnesses the power of SQL to sift through vast datasets, unveiling patterns and trends that contribute to a more comprehensive understanding of the virus's impact on populations worldwide. By analyzing total cases, deaths, and vaccinations, we aim to empower individuals, communities, and decision-makers with valuable information to navigate these challenging times.
+
+Certainly! If you're showcasing what you've learned without including specific queries, here's a brief summary for the README:
+
+---
+
+## SQL Data Cleaning and Enhancement
+
+### Overview
+
+This repository includes SQL queries demonstrating data cleaning and enhancement techniques on the [Nashville Housing Data] database. Below is a summary of the tasks performed:
+
+### 1. Standardizing Data Format
+
+- Extracting only the date from SaleDate using the `CONVERT(Date, SaleDate)` function.
+- Setting default SaleDate values for better consistency.
+
+### 2. Populating Missing Data
+
+- Identifying and populating missing PropertyAddress values.
+- Using a self-join on ParcelID to intelligently replace NULL values.
+
+### 3. Address Parsing and Splitting
+
+- Breaking down the PropertyAddress column into separate columns (Address, City).
+- Demonstrating two different methods using `SUBSTRING` and `PARSENAME` functions.
+
+### 4. Transforming Yes/No Values
+
+- Transforming 'Y' and 'N' values in the "Sold as Vacant" field to 'Yes' and 'No' using a `CASE` statement.
+
+### 5. Removing Duplicates
+
+- Identifying and removing duplicate records with the `ROW_NUMBER()` function.
+- Retaining necessary unique records in the dataset.
+
+### 6. Deleting Unused Columns
+
+- Streamlining the dataset by dropping unused columns such as OwnerAddress, TaxDistrict, and PropertyAddress.
+
+### Conclusion
+
+These SQL operations contribute to the overall cleanliness, consistency, and usability of the data for further analysis.
+
