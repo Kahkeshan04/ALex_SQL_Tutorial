@@ -190,7 +190,7 @@ CASE
 	END
 FROM [Nashvile Housing Data]..NashvileHousing
 
-/* Acutally updating the table */
+/* updating the table */
 UPDATE [Nashvile Housing Data]..NashvileHousing
 SET SoldAsVacant = CASE WHEN SoldAsVacant = 'Y' THEN 'Yes'
 	WHEN SoldAsVacant = 'N' THEN 'No'
