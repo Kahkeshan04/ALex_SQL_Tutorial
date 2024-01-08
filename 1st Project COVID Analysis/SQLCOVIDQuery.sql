@@ -20,9 +20,9 @@ ORDER BY 1,2 -- OREDER BY Location & Date
    What's the percentage of the people who died who were infected */
 
 /* The following is not working because the Data type of the total_deaths & total_cases are nvarchar, it should be float to preform arthematic operations */
-SELECT location, date,  total_cases, total_deaths, (total_deaths/total_cases)*100 AS Death_Percent
+/* SELECT location, date,  total_cases, total_deaths, (total_deaths/total_cases)*100 AS Death_Percent
 FROM [Covid-Project]..[Covid-Deaths]
-ORDER BY 1,2
+ORDER BY 1,2 */
 
 /* The following shows the data type of all the columns in the table (ex : COVID-DEATHS) */
 EXEC sp_columns 'Covid-Deaths';
@@ -30,7 +30,7 @@ EXEC sp_columns 'Covid-Deaths';
 /* The following Query convert the column data type temparorliy into float without ALerting the table */
 
 /* CHATGPT CODE */
-SELECT location, date, total_cases, total_deaths, 
+/* SELECT location, date, total_cases, total_deaths, 
 CASE
 	WHEN ISNUMERIC(total_deaths) = 1 AND ISNUMERIC(total_cases) = 1 
     THEN (CAST(total_deaths AS float) / CAST(total_cases AS float)) * 100
@@ -38,7 +38,7 @@ CASE
 END AS Death_Percent
 FROM [Covid-Project]..[Covid-Deaths]
 WHERE continent IS NULL
-ORDER BY 1,2
+ORDER BY 1,2 */
 
 /* My CODE but same result */
 SELECT location, date, total_cases, total_deaths, (CAST(total_deaths AS INT)/CAST(total_cases AS INT)) *100 AS Death_Percent
