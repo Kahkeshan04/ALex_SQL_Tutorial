@@ -55,7 +55,7 @@ In the face of a global health crisis, data-driven insights play a crucial role 
 
 ### Overview
 
-This repository includes SQL queries demonstrating data cleaning and enhancement techniques on the [Nashville Housing Data] database. Below is a summary of the tasks performed:
+This repository includes SQL queries demonstrating data cleaning and enhancement techniques on the Nashville Housing Data database. Below is a summary of the tasks performed:
 
 ### 1. Standardizing Data Format
 
