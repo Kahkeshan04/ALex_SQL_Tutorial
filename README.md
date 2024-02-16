@@ -50,9 +50,6 @@ The purpose of this project is to analyze and derive meaningful insights from th
 ## Conclusion:
 In the face of a global health crisis, data-driven insights play a crucial role in understanding the dynamics of the COVID-19 pandemic. This project harnesses the power of SQL to sift through vast datasets, unveiling patterns and trends that contribute to a more comprehensive understanding of the virus's impact on populations worldwide. By analyzing total cases, deaths, and vaccinations, we aim to empower individuals, communities, and decision-makers with valuable information to navigate these challenging times.
 
-Certainly! If you're showcasing what you've learned without including specific queries, here's a brief summary for the README:
-
----
 
 ## SQL Data Cleaning and Enhancement
 
